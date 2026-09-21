@@ -1,0 +1,44 @@
+{
+  "name": "xuanji",
+  "version": "0.1.0+codex.20260922",
+  "description": "Entertainment-grade Chinese metaphysics for coding agents: Bazi, Qimen, Ziwei, marriage lots, Fengshui, Tarot, plus AIGC chart/talisman imagery.",
+  "author": {
+    "name": "Full Stack Skills / PartMe.AI",
+    "url": "https://github.com/partme-ai"
+  },
+  "homepage": "https://github.com/full-aigc-plugins/xuanji-plugin",
+  "repository": "https://github.com/full-aigc-plugins/xuanji-plugin",
+  "license": "Apache-2.0",
+  "keywords": [
+    "bazi",
+    "qimen",
+    "ziwei",
+    "fengshui",
+    "tarot",
+    "divination",
+    "entertainment"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Xuanji · Cyber Divination",
+    "shortDescription": "Entertainment divination skills",
+    "longDescription": "Entertainment-grade Chinese metaphysics for coding agents: script-verified Bazi, Qimen, Ziwei, marriage divination, Fengshui, and Tarot readings with auditable classical citations and optional AIGC imagery via sibling plugins. For entertainment only.",
+    "developerName": "Full Stack Skills / PartMe.AI",
+    "category": "Creativity",
+    "websiteURL": "https://github.com/full-aigc-plugins/xuanji-plugin",
+    "brandColor": "#3D2B52",
+    "composerIcon": "./assets/composer-icon.png",
+    "logo": "./assets/logo.png",
+    "logoDark": "./assets/logo.png",
+    "screenshots": [],
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "帮我排一个八字看看性格",
+      "抽一剂塔罗牌问问最近的事业",
+      "起一局奇门遁甲看这次面试"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+name: skills-check
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  distribution:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Distribution consistency + red lines
+        run: python3 scripts/check_distribution.py
+      - name: Script test suites
+        run: python3 -m pytest tests/ skills/*/scripts/test_*.py -q

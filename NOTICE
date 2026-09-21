@@ -1,0 +1,28 @@
+Xuanji Plugin（玄机 · 赛博玄学）
+Copyright 2026 PartMe.AI
+
+This product contains material adapted from the following upstream
+projects, used under the MIT License:
+
+1. jinchenma94/bazi-skill (https://github.com/jinchenma94/bazi-skill)
+   MIT License, Copyright (c) 2025 jinchenma94
+   Adapted: the four-pillar (Bazi) chart computation core and the
+   reference tables under skills/xuanji-bazi/ ( astronomy-anchored
+   pai_pan.py, wuxing / shichen / dayun / shensha / classical-texts
+   tables), restructured and extended for this plugin.
+
+2. xr843/Master-skill (https://github.com/xr843/Master-skill)
+   MIT License, Copyright (c) 2026 xr843
+   Adapted: the classical-citation audit pattern (citation registry +
+   audit script) that inspired scripts/audit_citations.py. No master
+   persona content is included.
+
+The following upstream repositories were consulted for STRUCTURE and
+METHODOLOGY only. No verbatim content was copied (they carry no open
+license): FANzR-arch/Numerologist_skills, Ming-H/yinyuan-skills,
+voidforall/fengshui.skill, daman-ovo-0404/tarot-skill.
+
+This plugin is an entertainment product rooted in traditional Chinese
+metaphysics folklore. It is not affiliated with any religious
+organization, and it must not be used as a substitute for professional
+medical, legal, or financial advice.

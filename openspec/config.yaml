@@ -1,0 +1,25 @@
+schema: spec-driven
+
+# 项目上下文：xuanji（玄机）—— 娱乐向玄学 AIGC 插件
+context: |
+  xuanji-plugin 是 full-aigc-plugins 生态的娱乐向玄学插件：八字、奇门遁甲、紫微斗数、
+  姻缘、风水、塔罗六科，配合 AIGC 生图（命盘图 / 符箓 / 塔罗牌面 / 风水罗盘可视化）。
+
+  铁律：
+  1. 仅娱乐 —— 所有输出必须携带娱乐免责声明，不提供医疗/法律/投资建议。
+  2. 确定性计算归脚本（排盘/抽签/飞星，必须带测试），古籍知识归 references（带出处），
+     模型只做解释 —— 严禁模型凭空编盘、编古籍引文。
+  3. License 合规 —— 上游六仓中仅 bazi-skill 与 Master-skill 为 MIT 可搬内容；
+     其余（Numerologist_skills / yinyuan-skills / fengshui.skill / tarot-skill）无有效
+     license，只允许移植结构与方法论模式，逐字内容零搬运。
+  4. 付费生图守卫 —— 一次提交、job id 先持久化、失败不自动重提交、quota 上限内先问用户。
+  5. 观象环（生成质量环）≤ 3 轮，stall 即停下问用户，绝不自动重摇烧钱。
+
+  文档语言：中文正文 + 英文标题（与 full-aigc-plugins 各仓一致）。
+
+rules:
+  proposal:
+    - 必须包含「Non-goals」小节
+    - 必须声明娱乐定位与免责边界
+  tasks:
+    - 每个任务可独立验证，按 1.x/2.x 分组

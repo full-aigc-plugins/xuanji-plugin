@@ -1,0 +1,32 @@
+{
+  "name": "xuanji",
+  "displayName": "Xuanji",
+  "displayName_i18n": {
+    "en": "Xuanji · Cyber Divination",
+    "zh-CN": "玄机 · 赛博玄学"
+  },
+  "version": "0.1.0",
+  "description": "Entertainment-grade Chinese metaphysics for coding agents: Bazi, Qimen, Ziwei, marriage lots, Fengshui, Tarot, plus AIGC chart/talisman imagery.",
+  "description_i18n": {
+    "en": "Entertainment-grade Chinese metaphysics: Bazi, Qimen Dunjia, Ziwei Doushu, marriage divination, Fengshui, and Tarot with script-verified chart computation, plus optional AIGC imagery.",
+    "zh-CN": "娱乐向传统术数：八字、奇门、紫微、姻缘、风水、塔罗——排盘归脚本、引文可审计、只做解释不瞎编；可经生态插件成象命盘图/符箓。仅供娱乐，无付费项。"
+  },
+  "author": {
+    "name": "Full Stack Skills / PartMe.AI",
+    "url": "https://github.com/partme-ai"
+  },
+  "homepage": "https://github.com/full-aigc-plugins/xuanji-plugin",
+  "repository": "https://github.com/full-aigc-plugins/xuanji-plugin",
+  "license": "Apache-2.0",
+  "keywords": [
+    "bazi",
+    "qimen",
+    "ziwei",
+    "fengshui",
+    "tarot",
+    "divination",
+    "entertainment"
+  ],
+  "skills": "skills",
+  "commands": "commands"
+}
