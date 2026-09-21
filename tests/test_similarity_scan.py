@@ -46,6 +46,9 @@ class TestSimilarityScan(unittest.TestCase):
         self.assertLess(result["max_run"], ss.MAX_RUN_LIMIT, result)
 
     def test_real_repo_against_upstreams_green(self):
+        # CI 只克隆本仓，research/ 邻居不存在时跳过（工作区内全量运行）
+        if not all(path.exists() for path in ss.UPSTREAMS.values()):
+            self.skipTest("upstream research/ dirs not present in this checkout")
         results = ss.scan()
         self.assertTrue(results, "scan produced no results — upstream dirs missing?")
         for r in results:
