@@ -1,0 +1,29 @@
+{
+  "name": "partme-ai-xuanji",
+  "interface": {
+    "displayName": "Xuanji · Cyber Divination"
+  },
+  "plugins": [
+    {
+      "name": "xuanji",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/full-aigc-plugins/xuanji-plugin.git",
+        "ref": "v0.1.1"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Creativity",
+      "version": "0.1.1",
+      "description": "Entertainment-grade Chinese metaphysics: Bazi, Qimen, Ziwei, marriage lots, Fengshui, and Tarot with script-verified chart computation and optional AIGC imagery.",
+      "icon": "https://cdn.jsdelivr.net/gh/full-aigc-plugins/xuanji-plugin@v0.1.1/assets/logo.png",
+      "interface": {
+        "displayName": "Xuanji · Cyber Divination",
+        "shortDescription": "Entertainment divination skills",
+        "logo": "https://cdn.jsdelivr.net/gh/full-aigc-plugins/xuanji-plugin@v0.1.1/assets/logo.png"
+      }
+    }
+  ]
+}

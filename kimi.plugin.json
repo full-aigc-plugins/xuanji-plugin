@@ -1,7 +1,7 @@
 {
   "name": "xuanji",
-  "version": "0.1.0",
-  "description": "Entertainment-grade Chinese metaphysics for coding agents: Bazi, Qimen, Ziwei, marriage lots, Fengshui, Tarot, plus AIGC chart/talisman imagery.",
+  "version": "0.1.1",
+  "description": "Entertainment-grade Chinese metaphysics: Bazi, Qimen, Ziwei, marriage lots, Fengshui, and Tarot with script-verified chart computation and optional AIGC imagery.",
   "author": {
     "name": "Full Stack Skills / PartMe.AI"
   },
