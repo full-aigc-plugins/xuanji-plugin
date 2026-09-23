@@ -5,7 +5,7 @@
 [![License: Apache-2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](./LICENSE)
 | | |
 |---|---|
-| Current version | 0.1.0 |
+| Current version | 0.1.1 |
 | 安装 | `npx skills add full-aigc-plugins/xuanji-plugin --skill xuanji-bazi` |
 
 **玄机**是一个娱乐向玄学 Agent Skills 插件：八字、奇门遁甲、紫微斗数、姻缘、风水、塔罗六科传统术数，配合 AIGC 成象（命盘图、塔罗牌面、符箓壁纸、罗盘可视化）。
