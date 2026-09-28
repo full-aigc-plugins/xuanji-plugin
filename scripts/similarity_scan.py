@@ -51,6 +51,8 @@ BOILERPLATE = (
     "spread", "question", "seed", "cards", "position", "orientation",
     "level", "title", "verse", "hint", "notes", "artifact", "scores",
     "total", "verdict", "rounds", "composition", "symbol", "mood", "detail",
+    # 通用格式词元：Agent Skills / Agent Plugins 规范里的固定术语，非上游原创表达
+    "yamlfrontmatter", "agentskills", "agentplugins", "pluginservers",
     # 事实性固定序列（不受版权保护的口径）：22 牌名、花色、八门、九星、仪奇、十二宫、四化
     "愚者魔术师女祭司女皇皇帝教皇恋人战车力量隐士命运之轮正义吊人死神节制恶魔高塔星星月亮太阳审判世界",
     "权杖圣杯宝剑星币", "休生伤杜景死惊开",
