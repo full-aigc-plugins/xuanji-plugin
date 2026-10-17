@@ -22,7 +22,7 @@
       "interface": {
         "displayName": "Xuanji · Cyber Divination",
         "shortDescription": "Entertainment divination skills",
-        "logo": "https://cdn.jsdelivr.net/gh/full-aigc-plugins/xuanji-plugin@v0.1.1/assets/logo.png"
+        "logo": "https://cdn.jsdelivr.net/gh/full-aigc-plugins/xuanji-plugin@v0.2.0/assets/logo.png"
       }
     }
   ]
