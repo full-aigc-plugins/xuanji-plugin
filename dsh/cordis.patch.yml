@@ -4,4 +4,4 @@
 # for the other hosts.
 - insert:
     - id: xuanji-plugin
-      name: '@partme-dsh/xuanji'
+      name: 'xuanji'
