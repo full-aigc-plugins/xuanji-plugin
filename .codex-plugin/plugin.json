@@ -20,7 +20,7 @@
   ],
   "skills": "./skills/",
   "interface": {
-    "displayName": "Divination (Entertainment) · Xuanji",
+    "displayName": "Xuanji · Divination (Entertainment)",
     "shortDescription": "Bazi, Qimen, Ziwei, marriage, Fengshui and Tarot",
     "longDescription": "Entertainment-grade Chinese metaphysics for coding agents: script-verified Bazi, Qimen, Ziwei, marriage divination, Fengshui, and Tarot readings with auditable classical citations and optional AIGC imagery via sibling plugins. For entertainment only.",
     "developerName": "Full Stack Skills / PartMe.AI",

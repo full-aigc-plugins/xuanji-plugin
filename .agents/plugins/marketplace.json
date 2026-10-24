@@ -1,7 +1,7 @@
 {
   "name": "partme-ai-xuanji",
   "interface": {
-    "displayName": "Divination (Entertainment) · Xuanji"
+    "displayName": "Xuanji · Divination (Entertainment)"
   },
   "plugins": [
     {
@@ -20,7 +20,7 @@
       "description": "Entertainment-grade Chinese metaphysics with script-verified charts and auditable classical citations. For entertainment only.",
       "icon": "https://cdn.jsdelivr.net/gh/full-aigc-plugins/xuanji-plugin@v0.1.1/assets/logo.png",
       "interface": {
-        "displayName": "Divination (Entertainment) · Xuanji",
+        "displayName": "Xuanji · Divination (Entertainment)",
         "shortDescription": "Bazi, Qimen, Ziwei, marriage, Fengshui and Tarot",
         "logo": "https://cdn.jsdelivr.net/gh/full-aigc-plugins/xuanji-plugin@v0.1.1/assets/logo.png"
       }
