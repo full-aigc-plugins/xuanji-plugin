@@ -1,7 +1,7 @@
 {
   "name": "xuanji",
   "version": "0.1.1",
-  "description": "Entertainment-grade Chinese metaphysics with script-verified charts and auditable classical citations. For entertainment only.",
+  "description": "娱乐向术数六科，排盘由脚本校验、引文可追溯；仅供娱乐，不构成专业建议。",
   "author": {
     "name": "Full Stack Skills / PartMe.AI"
   },
@@ -17,12 +17,18 @@
     "entertainment"
   ],
   "interface": {
-    "displayName": "Xuanji · Divination (Entertainment)",
-    "shortDescription": "Bazi, Qimen, Ziwei, marriage, Fengshui and Tarot",
+    "displayName": "Xuanji（命理排盘 · 娱乐）",
+    "shortDescription": "八字、奇门、紫微、姻缘、风水与塔罗",
     "longDescription": "Entertainment-grade Chinese metaphysics for coding agents: script-verified Bazi, Qimen, Ziwei, marriage divination, Fengshui, and Tarot readings with auditable classical citations and optional AIGC imagery via sibling plugins. For entertainment only.",
     "developerName": "Full Stack Skills / PartMe.AI",
     "websiteURL": "https://github.com/full-aigc-plugins/xuanji-plugin"
   },
   "skills": "./skills/",
-  "commands": "./commands/"
+  "commands": "./commands/",
+  "displayName_i18n": {
+    "zh-CN": "Xuanji（命理排盘 · 娱乐）"
+  },
+  "description_i18n": {
+    "zh-CN": "娱乐向术数六科，排盘由脚本校验、引文可追溯；仅供娱乐，不构成专业建议。"
+  }
 }

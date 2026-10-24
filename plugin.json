@@ -2,7 +2,7 @@
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "xuanji",
   "version": "0.1.1",
-  "description": "Entertainment-grade Chinese metaphysics with script-verified charts and auditable classical citations. For entertainment only.",
+  "description": "娱乐向术数六科，排盘由脚本校验、引文可追溯；仅供娱乐，不构成专业建议。",
   "author": {
     "name": "Full Stack Skills / PartMe.AI",
     "url": "https://github.com/partme-ai"
@@ -48,5 +48,12 @@
     "ai.nanoco.nanoclaw": {
       "agentName": "Xuanji · Cyber Divination"
     }
+  },
+  "displayName": "Xuanji（命理排盘 · 娱乐）",
+  "displayName_i18n": {
+    "zh-CN": "Xuanji（命理排盘 · 娱乐）"
+  },
+  "description_i18n": {
+    "zh-CN": "娱乐向术数六科，排盘由脚本校验、引文可追溯；仅供娱乐，不构成专业建议。"
   }
 }

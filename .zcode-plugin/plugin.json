@@ -1,13 +1,15 @@
 {
   "name": "xuanji",
-  "displayName": "Xuanji · Divination (Entertainment)",
+  "displayName": "Xuanji（命理排盘 · 娱乐）",
   "displayName_i18n": {
-    "en": "Xuanji · Divination (Entertainment)"
+    "en": "Xuanji · Divination (Entertainment)",
+    "zh-CN": "Xuanji（命理排盘 · 娱乐）"
   },
   "version": "0.1.1",
-  "description": "Entertainment-grade Chinese metaphysics with script-verified charts and auditable classical citations. For entertainment only.",
+  "description": "娱乐向术数六科，排盘由脚本校验、引文可追溯；仅供娱乐，不构成专业建议。",
   "description_i18n": {
-    "en": "Entertainment-grade Chinese metaphysics with script-verified charts and auditable classical citations. For entertainment only."
+    "en": "Entertainment-grade Chinese metaphysics with script-verified charts and auditable classical citations. For entertainment only.",
+    "zh-CN": "娱乐向术数六科，排盘由脚本校验、引文可追溯；仅供娱乐，不构成专业建议。"
   },
   "author": {
     "name": "Full Stack Skills / PartMe.AI",
